@@ -57,7 +57,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'https://courier-farhatbaig.vercel.app/'),
+    'url' => env('APP_URL', 'https://courier-uqwc-5glbzqcv4-farhatbaig.vercel.app'),
 
     'asset_url' => env('ASSET_URL'),
 
