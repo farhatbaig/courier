@@ -125,7 +125,7 @@
                                     <div class="row">
                                         <div class="col-12">
                                             <div class="panel-heading text-center p-5">
-                                                <h2>Welcome To Wecourier</h2>
+                                                <h2>Welcome To Wecouriersssss</h2>
                                                 <h2>Wecourier - Parcel delivery courier management Logistics support CMS Laravel Script Installation</h2>
                                             </div>
                                         </div>
