@@ -603,7 +603,7 @@ if (!function_exists('singleUser')) {
 
     if (!function_exists('salaryPayments')) {
 
-        function salaryPayments($user_id='',$salaryPayments)
+        function salaryPayments($salaryPayments  , $user_id='')
         {
             $amount=0;
             foreach ($salaryPayments as $key => $payment) {

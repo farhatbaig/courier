@@ -2,7 +2,9 @@
 
 use Illuminate\Support\Facades\Facade;
 use Illuminate\Support\ServiceProvider;
-
+if (env('APP_ENV') !== 'production') {
+    $providers[] = Barryvdh\Debugbar\ServiceProvider::class;
+}
 return [
 
     /*
@@ -55,7 +57,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'https://courier-farhatbaig.vercel.app/'),
 
     'asset_url' => env('ASSET_URL'),
 
@@ -162,7 +164,7 @@ return [
 
          Maatwebsite\Excel\ExcelServiceProvider::class,
          RealRashid\SweetAlert\SweetAlertServiceProvider::class,
-         Barryvdh\Debugbar\ServiceProvider::class,
+        //  Barryvdh\Debugbar\ServiceProvider::class,
          Milon\Barcode\BarcodeServiceProvider::class, 
          Brian2694\Toastr\ToastrServiceProvider::class,
          Cartalyst\Stripe\Laravel\StripeServiceProvider::class ,
