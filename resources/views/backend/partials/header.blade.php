@@ -7,7 +7,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}" />
     <link rel="shortcut icon" href="{{ settings()->favicon_image }}" type="image/x-icon">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="{{static_asset('backend')}}/vendor/bootstrap-five/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="{{static_asset('backend')}}/vendor/bootstrap-five/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
     <link href="{{static_asset('backend')}}/vendor/fonts/circular-std/style.css" rel="stylesheet">
     <link rel="stylesheet" href="{{static_asset('backend')}}/libs/css/style.css">
@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="{{static_asset('backend')}}/libs/css/custom.css">
     <link rel="stylesheet" href="{{static_asset('backend')}}/css/custom.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.5.1/css/flag-icons.min.css" /> 
-    <link rel="stylesheet" href="{{ static_asset('backend/vendor') }}/toastr/toastr.min.css">
+    <link rel="stylesheet" href="{{ static_asset('backend/vendor') }}/toastr/toastr.min.css"> -->
     <!-- push target to head -->
     @stack('styles')
     <title>@yield('title')</title>
