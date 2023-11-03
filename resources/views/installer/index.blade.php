@@ -8,20 +8,20 @@
         <link rel="shortcut icon" href=" {{ static_asset('images/default/favicon.png') }}" type="image/x-icon">
         <!-- Bootstrap CSS -->
 
-        <link rel="stylesheet" href="{{static_asset('backend')}}/vendor/bootstrap-five/bootstrap.min.css">
+        <link rel="stylesheet" href="https://courier-uqwc-git-main-farhatbaig.vercel.app/vendor/bootstrap-five/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
-        <link href="{{static_asset('backend')}}/vendor/fonts/circular-std/style.css" rel="stylesheet">
-        <link rel="stylesheet" href="{{static_asset('backend')}}/libs/css/style.css">
+        <link href="https://courier-uqwc-git-main-farhatbaig.vercel.app/vendor/fonts/circular-std/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://courier-uqwc-git-main-farhatbaig.vercel.app/libs/css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <link rel="stylesheet" href="{{static_asset('backend')}}/vendor/fonts/fontawesome/css/fontawesome-all.css">
-        <link rel="stylesheet" href="{{static_asset('backend')}}/libs/css/custom.css">
-        <link rel="stylesheet" href="{{static_asset('backend')}}/css/custom.css">
+        <link rel="stylesheet" href="https://courier-uqwc-git-main-farhatbaig.vercel.app/vendor/fonts/fontawesome/css/fontawesome-all.css">
+        <link rel="stylesheet" href="https://courier-uqwc-git-main-farhatbaig.vercel.app/libs/css/custom.css">
+        <link rel="stylesheet" href="https://courier-uqwc-git-main-farhatbaig.vercel.app/css/custom.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.5.1/css/flag-icons.min.css" />
         <link rel="stylesheet" href="http://cdn.bootcss.com/toastr.js/latest/css/toastr.min.css">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="{{static_asset('backend')}}/css/progressbar.css">
+        <link rel="stylesheet" href="https://courier-uqwc-git-main-farhatbaig.vercel.app/css/progressbar.css">
 
         <link rel='stylesheet' type='text/css' href="{{ static_asset('installer/styleone.css') }}" />
         <title>Wecourier - Parcel delivery courier management Logistics support cms</title>
