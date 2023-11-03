@@ -26,7 +26,8 @@
     <link rel="stylesheet" href="{{ static_asset('backend/vendor') }}/toastr/toastr.min.css"> -->
     <!-- push target to head -->
     @stack('styles')
-    <title>@yield('title')</title>
+    <!-- <title>@yield('title')</title> -->
+    
 </head>
 <body >
     <!-- main wrapper -->
